@@ -1,0 +1,135 @@
+* {box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;}
+
+div *{border-radius: 2px;}
+
+.container1:after{clear: both;
+  content: "";
+  display:table;}
+
+header:after{clear: both;
+  content: "";
+  display:table;}
+
+
+.container1{width: 100%;
+  background-image: url(img/texture.jpg);
+  background-repeat: repeat;}
+
+/* contenuto header */
+header{width: 80%;
+  height: 250px;
+  background-image: url(img/forest.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-left: 50%;
+  top:20px;
+  transform: translate(-50%);
+  border: 8px solid white;}
+
+.nat{width: 300px;
+  height: 80px;
+  border: 2px solid white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);}
+
+.nat h1{text-align: center;
+  line-height: 80px;
+  color: white;
+  font-size: 60px;
+  font-weight: 200;
+  margin: 0px;}
+
+header i{font-size: 40px;
+  color: white;
+  text-align: center;}
+
+.mont{position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -20%);}
+
+/* contenuto baarra navigazione */
+nav{margin-left: 10%;
+  margin-right: 10%;}
+
+nav ul {width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  display:inline-block;}
+
+nav ul li {
+  float: left;
+  color: white;
+  margin: 0;}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;}
+
+li a:hover{
+  background-color: #111;}
+
+/* contenuto colonne */
+.col_1, .col_2, .col_3{margin-top: 10px;
+  display: inline-block;}
+
+/* contenuto colonna 1 */
+.col_1{width: 15%;
+  background-color: white;
+  float: left;
+  margin-left: 10%;
+  margin-right: 2.5%;}
+
+.col_1 a {display: block;
+  margin: 10px;
+  text-decoration: none;
+  color: #32ff40;}
+
+.col_1 h4 {display: inline-block;
+  margin-bottom: 5px;}
+
+.col_1 i {margin-left: 10px;
+  color: #fcb000;}
+
+/* contenuto colonna 2 */
+.col_2{width: 45%;
+  background-color: white;
+  float: left;
+  padding: 10px;}
+
+.col_2 a {text-decoration: none;
+  color: #32ff40;}
+
+.col_2 p {text-align: justify;}
+
+
+/* contenuto colonna 3 */
+.col_3{width: 15%;
+  float: right;
+  margin-right: 10%;}
+
+.tema_1, .tema_2{background-color: white;
+  height: 100%;
+  padding: 10px;}
+
+.tema_1 h4{display: inline-block;
+  margin: 0px;}
+
+.tema_2{margin-top: 20px;}
+
+.tema_2 a {display: block;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #32ff40;}
+
+.tema_2 h4{margin-left: 10px;}
